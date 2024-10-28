@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra w Dzika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1 id="nazwa">Gra w Dzika</h1>
+        <div id="numberDisplay" class="numer">0</div>
+        <div id="images">
+            <img id="dzik" src="pliki/dzik.gif" alt="Dzik" />
+            <img id="notDzik" src="pliki/niedzik.jpg" alt="Nie Dzik" />
+        </div>
+        <div id="reactionTime">Czas reakcji: 0s</div>
+        <div>
+            <label for="timeSlider" class="napis">Czas na odpowiedź: </label>
+            <input type="range" id="timeSlider" min="1" max="10" value="3">
+            <span id="timeValue" class="napis">3</span> <span class="napis">s</span>
+        </div>
+        <div id="score">Wynik: 0</div>
+        <button id="startButton">Start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("pliki/las.jpg");
+}
+
+#numberDisplay {
+    font-size: 48px;
+    margin: 20px;
+    color:rgb(255, 0, 0);
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#dzik, #notDzik {
+    width: 300px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+#reactionTime, #score {
+    font-size: 24px;
+}
+.napis{
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size:20px
+}
+#reactionTime{
+    color:rgb(251, 255, 0);
+}
+#score{
+    color:rgb(251, 255, 0);
+}
+#nazwa{
+    color:rgb(255, 183, 0)
+}
